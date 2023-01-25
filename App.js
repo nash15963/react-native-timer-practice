@@ -52,13 +52,13 @@ export default function App() {
       </View>
       
       <View style={styles.parentButton}>
-      <TouchableHighlight style={styles.Button} onPress={handleStart}>
+      <Pressable style={styles.Button} onPress={handleStart}>
         <Text style={styles.text}>START/STOP</Text>
-      </TouchableHighlight>
+      </Pressable>
 
-      <TouchableHighlight style={styles.Button} onPress={handleRefesh}>
+      <Pressable style={styles.Button} onPress={handleRefesh}>
         <Text style={styles.text}>REFRESH</Text>
-      </TouchableHighlight>
+      </Pressable>
       </View>
       
       <StatusBar style="auto" />
